@@ -77,7 +77,7 @@
             if($screenName)
             {
              
-                $this -> screenName = $screenName;
+                $this -> screenName = str_replace("@","",$screenName);
                 if($this -> connectToDb) $this -> dbConnection = $this -> connectToDatabase();
                 if(!$this -> verifyInstallation()) $this -> completeInstallation();
                 $this -> latestTweet = $this -> retrieveLatestTweet();

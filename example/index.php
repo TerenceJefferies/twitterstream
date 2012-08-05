@@ -20,7 +20,7 @@
                 
                     include 'class/twitterstream.php';
                     
-                    $twitterstream = new twitterStream('TJRLZ');
+                    $twitterstream = new twitterStream('@TJRLZ');
                     echo $twitterstream -> fetchLatestTweet();
                 
                 ?>
