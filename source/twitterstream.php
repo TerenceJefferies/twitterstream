@@ -7,6 +7,8 @@
      * 
      * @date: 05/08/2012
      * 
+     * @license: Attribution 3.0 Unported
+     * 
      * @params
      * - (string): screenName: The screen name for the user who's tweets
      * should be retrieved
